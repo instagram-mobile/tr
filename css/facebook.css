@@ -1,0 +1,111 @@
+#body{
+	background-color: #eceff6;
+	-webkit-appearance: none;
+}
+#top{
+	position: relative;
+	width: 980px; height: 120px;
+	background-color: #3b5999;
+	margin: -8px;
+	-webkit-appearance: none;
+}
+#facebook_yazısı{
+	position: absolute;
+	top: -50px; left: 340px;
+	color: #fefffd;
+	font-size: 70px;
+	font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	font-weight:bold; 
+	-webkit-appearance: none;
+}
+#insta_logo{
+	position: relative;
+	top: 100px; left: 420px;
+	height: 130px;
+	border-color: black;
+	border-width: 50px;
+	-webkit-appearance: none;
+}
+#yazi{
+	position: absolute;
+	top: 390px; left: 200px;
+	font-size: 45px;
+	color: #90939c;
+	font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	-webkit-appearance: none;
+}
+#username{
+	position: relative;
+	top: 350px; left: 40px;
+	width: 880px; height: 120px;
+	background-color: white;
+	color: #757575;
+	font-size: 40px;
+	border-style: solid;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-collapse: #d9dadf;
+	border-width: 3px;
+	border-color: #cacbcf;
+	-webkit-appearance: none;
+}
+#password{
+	position: relative;
+	top: 347px; left: 40px;
+	width: 880px; height: 120px;
+	background-color: white;
+	color: #757575;
+	font-size: 40px;
+	border-style: solid;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-collapse: #d9dadf;
+	border-width: 3px;
+	border-color: #cacbcf;
+	-webkit-appearance: none;
+}
+#login{
+	position: relative;
+	top: 380px; left: 40px;
+	width: 880px; height: 100px;
+	font-size: 50px;
+	background-color: #1878f3;
+	color: white;
+	font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	font-weight: Bold;
+	border-radius: 15px;
+	border: 3px;
+	-webkit-appearance: none;
+}
+#sifre_unut{
+	position: absolute;
+	top: 960px; left: 320px;
+	font-size: 40px;
+	color: #2f6cc2;
+	font-family: Arial;
+	-webkit-appearance: none;
+}
+#hesap_olustur{
+	position: absolute;
+	top: 1100px; left: 350px;
+	font-size: 40px;
+	color: #5c6a8c;
+	font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	-webkit-appearance: none;
+}
+#simdi_degil{
+	position: absolute;
+	top: 1200px; left: 370px;
+	font-size: 40px;
+	color: #5c6a8c;
+	font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	-webkit-appearance: none;
+}
+#yardım_merkezi{
+	position: absolute;
+	top: 1300px; left: 340px;
+	font-size: 40px;
+	color: #869cc1;
+	font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	-webkit-appearance: none;
+}

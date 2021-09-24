@@ -1,0 +1,86 @@
+#body{
+	background-color: #fafafa;
+	-webkit-appearance: none;
+}
+#username{
+	position: relative;
+	top: 3px; left: 115px;
+	width: 670px; height: 95px;
+	font-size: 33px;
+	background-color: #fafafa;
+	border-style: solid;
+	border-color: #dadada;
+	border-radius: 12px;
+	padding: 0px 20px;
+	-webkit-appearance: none;
+}
+#password{
+	position: relative;
+	top: 20px; left: 115px;
+	width: 670px; height: 91px;
+	font-size: 33px;
+	background-color: #fafafa;
+	border-style: solid;
+	border-color: #dadada;
+	border-radius: 12px;
+	padding: 0px 20px;
+	-webkit-appearance: none;
+}
+#goster{
+	position: absolute;
+	top: 850px; left: 640px;
+	border: 0px;
+	background-color: #fafafa;
+	color: #262626;
+	font-size: 40px;
+	font-family: Arial;
+	font-weight:bold;
+	cursor: pointer;
+	-webkit-appearance: none;
+}
+#unut{
+	position: absolute;
+  	top: 920px; right: 140px;
+	font-size: 40px;
+	color: #158fe2;
+	font-style:normal;
+	font-family: Arial;
+	-webkit-appearance: none;
+}
+#login{
+	position: relative;
+	top: 180px; left: 115px;
+	width: 710px; height: 80px;
+	background-color: #b2dffc;
+	font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	font-weight: Bold; 
+	border-radius: 15px;
+	background-color: b2dffc;
+	color: white;
+	border: none;
+	font-size: 50px;
+	-webkit-appearance: none;
+}
+#hesabın{
+	position: absolute;
+	top: 1200px; left: 300px;
+	font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;;
+	font-size: 35px;
+	color: #898989;
+	-webkit-appearance: none;
+}
+#kaydol{
+	position: absolute;
+	top: 1200px; left: 580px;
+	font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;;
+	font-size: 35px;
+	color: #0293ec;
+	font-style:normal;
+	font-weight:bold;
+	-webkit-appearance: none;
+}
+#from{
+	position: relative;
+	bottom: -570px; left: 340px;
+	-webkit-appearance: none;
+}

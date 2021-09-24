@@ -1,0 +1,54 @@
+#body{
+	background-color: white;
+}
+#instagram_resim{
+	position: relative
+	top: 0px; left: 0px
+}
+#imgcontainer {
+  text-align: center;
+
+}
+img#avatar {
+  position: relative;
+  top: -70px;
+  width: 280px;
+  height: 280px;
+  border-radius: 150%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: white;
+}
+#hesap{
+  position: relative;
+  top: -20px; left: 170px;
+  width: 600px; height: 80px;
+  background-color: #0195f7;
+  font-size: 45px;
+  font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight:bold; 
+  color: white;
+  border-radius: 15px;
+  border: 0px;
+}
+#soru{
+  position: relative;
+  top: 5px; left: 100px;
+  width: 500px; height: 100px;
+  font-size: 35px;
+}
+#change{
+  position: relative;
+  top: -130px; left: 580px;
+  width: 340px;
+  font-size: 35px;
+  font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight:bold; 
+  background-color: white;
+  color: #1f96e3;
+  border-width: 0px;
+}
+#facebook{
+  position: relative;
+  bottom: -470px; left: 350px;
+}

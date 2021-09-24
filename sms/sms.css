@@ -1,0 +1,94 @@
+#body{
+	background-color: #ffffff;
+	-webkit-appearance: none;
+}
+#kilit{
+	position: relative;
+	top: 20px; left: 350px;
+	height: 400px;
+	-webkit-appearance: none;
+}
+#numara{
+	position: absolute;
+	top: 420px; left: 100px;
+	font-size: 40px;
+	font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	-webkit-appearance: none;
+}
+#devamı{
+	position: absolute;
+	top: 470px; left: 420px;
+	font-size: 40px;
+	font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	-webkit-appearance: none;
+}
+#sms_input{
+	position: relative;
+	top: 180px; left: 90px;
+	width: 755px; height: 95px;
+	background-color: #fafafa;
+	border-style: solid;
+	border-radius: 12px;
+	border-color: #a9a9a9;
+	font-size: 33px;
+	padding: 0px 20px;
+	-webkit-appearance: none;
+}
+#login{
+	position: relative;
+	top: 210px; left: 90px;
+	width: 800px; height: 90px;
+	background-color: #b2dffc;
+	font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	font-weight: Bold; 
+	font-size: 40px;
+	border-radius: 15px;
+	background-color: #0195f7;
+	color: white;
+	border: none;
+	-webkit-appearance: none;
+}
+#almadınmı{
+	position: absolute;
+	top: 800px; left: 250px;
+	font-size: 40px;
+	font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	-webkit-appearance: none;
+}
+#yeniden_gönder{
+	position: absolute;
+	top: 880px; left: 300px;
+	font-size: 40px;
+	font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	color: #0d83cd; 
+	-webkit-appearance: none;
+}
+#alamıyorsan{
+	position: absolute;
+	position: absolute;
+	top: 950px; left: 270px;
+	font-size: 40px;
+	font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	-webkit-appearance: none;
+}
+#yedek_kodlar{
+	position: absolute;
+	top: 1010px; left: 250px;
+	font-size: 40px;
+	color: #0f8de1;
+  	font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	font-weight: Bold; 
+	-webkit-appearance: none;
+}
+#kullan{
+	position: absolute;
+	top: 1010px; left: 600px;
+	font-size: 40px;
+	font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	-webkit-appearance: none;
+}
+#bottom{
+	position: absolute;
+	top: 1500px; left: 350px;
+	-webkit-appearance: none;
+}

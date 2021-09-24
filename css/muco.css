@@ -1,0 +1,64 @@
+#body{
+	background-color: white;
+  -webkit-appearance: none;
+}
+#instagram_resim{
+	position: relative
+	top: 0px; left: 0px
+  -webkit-appearance: none;
+}
+#imgcontainer {
+  text-align: center;
+  -webkit-appearance: none;
+
+}
+img#avatar {
+  position: relative;
+  top: -70px;
+  width: 280px;
+  height: 280px;
+  border-radius: 150%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: white;
+  -webkit-appearance: none;
+}
+#hesap{
+  position: relative;
+  top: -20px; left: 170px;
+  width: 600px; height: 80px;
+  background-color: #0195f7;
+  font-size: 45px;
+  font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight:bold; 
+  color: white;
+  border-radius: 15px;
+  border: 0px;
+  -webkit-appearance: none;
+}
+#soru{
+  position: relative;
+  top: 5px; left: 160px;
+  width: 500px; height: 100px;
+  font-size: 35px;
+  font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-appearance: none;
+}
+#change{
+  position: relative;
+  top: -196px; left: 530px;
+  width: 340px;
+  font-size: 35px;
+  font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight:bold; 
+  text-decoration:none;
+  background-color: white;
+  color: #1f96e3;
+  border-width: 0px;
+  -webkit-appearance: none;
+}
+#facebook{
+  position: relative;
+  bottom: -470px; left:100px;
+  -webkit-appearance: none;
+}
